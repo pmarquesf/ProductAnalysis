@@ -1,0 +1,84 @@
+/* Estilo para o container pai */
+body{
+  margin: 0px;
+  background-size: cover; /* Ajusta o tamanho da imagem para cobrir todo o container */
+  background-image: url('images/background.jpg'); /* Define a imagem de plano de fundo */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh; /* Isso garante que a div seja centralizada verticalmente na janela do navegador */ 
+}
+
+/* Estilo para o conteúdo dentro da div */
+.content {
+  text-align: center; /* Centraliza o texto horizontalmente */
+  background-color: #002242; /* Cor de fundo com transparência */
+  padding-top: 10px;
+  border-radius: 10px;
+}
+
+iframe {
+  margin: 0px;
+}
+
+.title {
+  margin: 15px;
+}
+
+.dashboard-title{
+  padding-bottom: 20px;
+}
+
+li{
+  font-family: Helvetica;
+  padding: 10px;
+}
+
+/* Estilo para o cabeçalho */
+header {
+  background-color: #002242; /* Cor de fundo azul */
+  text-align: center; /* Centraliza o texto horizontalmente */
+  padding: 20px 0; /* Preenchimento superior e inferior */
+  color: #fff; /* Cor do texto branco */
+}
+
+/* Estilo para o título */
+h1 {
+  width: 100%; /* Largura total da janela do navegador */
+  margin: 0; /* Remove margens padrão */
+  font-family: Helvetica;
+  font-size: 24px;
+  color: white;
+  -webkit-text-stroke: 1px black; /* Efeito de borda no Chrome e Safari */
+}
+
+/* Estilo para a barra de navegação */
+nav ul {
+  list-style-type: none; /* Remover marcadores de lista */
+  padding: 0; /* Remover preenchimento padrão da lista */
+  display: flex; /* Tornar a lista um flex container */
+  justify-content: center; /* Distribui os itens igualmente */
+  background-color: #000f1f; /* Cor de fundo azul mais escura */
+}
+
+/* Estilo para os itens da lista (li) */
+nav li {
+  margin: 0; /* Remove margens padrão */
+}
+
+/* Estilo para os links (a) dentro dos itens da lista */
+nav a {
+  text-decoration: none; /* Remover sublinhado padrão dos links */
+  color: #fff; /* Cor do texto branco */
+  font-weight: bold; /* Texto em negrito */
+  padding: 10px 20px; /* Preenchimento interno */
+  transition: background-color 0.3s; /* Efeito de transição na cor de fundo */
+}
+
+/* Efeito de passagem do mouse para os links */
+nav a:hover {
+  background-color: #0065c2; /* Nova cor de fundo ao passar o mouse */
+}
